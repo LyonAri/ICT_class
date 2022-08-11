@@ -1,6 +1,0 @@
-(1) 가상환경 만들고, Flask 설치
-(2) incomePredict.py 머신러닝 모델을 만들기
--income_base.pkl 모델
-(3) income_base.pkl 불러와서,
-Flask 앱 실행.
-(4) start.html에 입력한 값을 토대로 결과 페이지가 보여진다.(after.html)
