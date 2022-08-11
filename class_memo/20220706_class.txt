@@ -1,0 +1,10 @@
+파이참 설치 및 비쥬얼 스튜디어 코드 설치
+
+
+https://ldjwj.github.io/kagglebook/pdf_html/ch1_3_pycharm_install.html
+파이참 설치
+
+
+https://ldjwj.github.io/kagglebook/pdf_html/03_[Window]01_visual_studio_code_install.html
+https://ldjwj.github.io/kagglebook/pdf_html/03_[Window]02_visual_studio_code_install_02.html
+비쥬얼스튜디오 코드 설치

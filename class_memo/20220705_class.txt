@@ -1,0 +1,40 @@
+참고 책 : 점프 투 파이썬
+
+import [모듈명]
+from [모듈명] import A, B
+from 이 먼저 나오면 메모리 절약할수 있음
+from sklearn import LinearRegression   <-이렇게 쓰면
+
+sklearn.LinearRegression()
+LinearRegression()  <-이렇게 쓸 수 있음
+import seaborn as sns
+import matplotlib.pyplot as plt      <-약자는 달라도 되지만 이렇게 쓰는게 대중적임 
+import pandas as pd
+import numpy as np
+import sklearn
+
+pandas  :  Series, DataFrame
+pandas가 가지고 있는 모든 프레임을 쓸 수 있다
+
+pandas에서 중요한 용어?
+##tips.head() : 앞의 행 (5줄) 보기
+##tips.tail() : 뒤의 행 보기
+##tips.describe() : 통계 값 보기
+##tips.columns : 컬럼명 확인
+##tips.shape : 행열 확인
+##tips.info() : 전체 정보 확인
+
+boxplot :이상치를 볼 수 있다.
+범주형 변수 : 값들의 값이 구간사이에 한정되어있는 변수
+x, y 축이 연속형 변수일때 산점도를 쓴다 
+lmplot : 산점도와 회귀직선
+
+##seaborn 시각화
+boxplot : 상자 그림
+lmplot : 산점도와 회귀직선
+barplot : 막대 그래프 (값의 평균)
+countplot : 막대 그래프 (빈도)
+scatterplot : 두 변수간의 상관관계 찍기
+lineplot : 주식과 같은 시계열에 따른 데이터 추이.
+histplot : 히스토그램
+heatmap : 히트맵

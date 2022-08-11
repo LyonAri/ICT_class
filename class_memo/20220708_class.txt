@@ -1,0 +1,72 @@
+20220708 수업정리
+
+형변환
+int(), float(), list(), tuple(), set() 
+리스트
+튜플
+딕셔너리
+집합
+'''
+
+인덱싱 : 특정 위치 읽어오기
+슬라이싱 : 구간으로 읽어오기
+dict.item() : 딕셔너리 전체를 보고싶다.
+dict.keys() : 키값만 보고 싶다.
+dict.values() : 키에 대한 값만 보고 싶다.
+def a(num1, num2) : 
+     return num1+num2
+a(3)
+
+##문제가 있는가? Error 발생할 수 있다.
+##해결 방법 : 디폴트 값을 설정
+##클래스
+-----
+class  클래스 :
+
+class 클래스(000) :
+   pass
+
+=>상속
+오버라이딩 개념 정리 
+eval("계산식") : 계산식을 넣으면 계산해서 결과를 보여준다.
+import [모듈명]
+from [모듈명] import A, B
+from 이 먼저 나오면 필요한 부분만 불러와서 메모리 절약할수 있음
+
+pandas
+-pd.read_csv() : csv 파일 불러오기
+-pd.read_excel() : excel 파일 불러오기
+-pd.to_csv()  : csv 파일 만들기
+-pd.to_excel() : excel 파일 만들기
+-----
+--필수 라이브러리--
+pandas : 데이터 처리
+matplotlib : 시각화
+seaborn : 시각화
+numpy : 선형대수, 수학함수, 난수발생
+scikit-learn : 머신러닝
+tensorflow : 딥러닝
+keras : 딥러닝
+pytorch : 딥러닝 
+----
+plotly
+folium
+xgboost, lightgbm
+
+gc
+shutil
+datetime
+random
+glob
+time
+re
+----
+pycaret
+hyperopt
+statsmodels
+optuna
+
+warnings 
+----
+decimal
+monai
